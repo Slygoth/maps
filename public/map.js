@@ -20,7 +20,7 @@ window.eqfeed_callback = function(results) {
             var marker = new google.maps.Marker({
                 position: latLng,
                 map: map,
-                icon: water.png
+                icon: 'water.png'
             });
             var contentString = '<div id="iw-container">' +
                 '<div class="iw-content">' +
